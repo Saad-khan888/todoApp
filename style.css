@@ -11,12 +11,10 @@
 
 h1{
    margin-bottom: 30px; 
-   color: white;
+   color: black;
 }
 
-.taskItem > div{
-    background-color: linear-gradient(135deg, #6BF216, #5DBD14);
-}
+
 
 
 
@@ -26,7 +24,8 @@ h1{
 
 }
 
-button:hover { background-color: #5DBD14;}
+button:hover { background-color: #979796;
+}
 
 input{
     margin-bottom: 12px;
@@ -43,11 +42,11 @@ body{
 
 input{
 margin-right: 10px;
-padding: 10px 10px;
+padding: 10px 15px;
 
 font-size: 16px;
 border-radius: 30px;
-background-color: darkgray;
+background-color: #181a1b ;
 border-style: none;
 
 }
@@ -59,13 +58,12 @@ opacity: 1;
 Button{
     padding: 15px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #181a1b;
     color: white;
     cursor: pointer;
     border-style: none;
 
 }
-
 
 
 
@@ -86,6 +84,9 @@ i {
 }
 
 .taskList{
+    background-color: linear-gradient(135deg, #6BF216, #5DBD14);
     margin: 0px 25px;
+    min-width: 340px;
+    max-width: 1200px;
      background-color: #ffffff; /* White background */ border-radius: 8px; /* Rounded corners */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Box shadow for 3D effect */  /* Padding inside the task list */ 
 }
