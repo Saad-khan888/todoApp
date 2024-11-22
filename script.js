@@ -10,6 +10,8 @@ function submitTask() {
     createItem(taskValue);
 }
 
+taskList.style.background = 'linear-gradient(to bottom, #FFFF00, #A7CD3A)';
+
 function createItem(task) {
     // Create the main container for the task item
     const taskItem = document.createElement('div');
@@ -19,11 +21,10 @@ function createItem(task) {
     taskItem.style.textOverflow = 'ellipsis';
     taskItem.style.whiteSpace = 'pre-wrap';
     taskItem.style.wordBreak = 'break-word';
-    taskItem.style.background = 'linear-gradient(to bottom, #FFFF00, #A7CD3A)';
     taskItem.style.color = 'white';
     taskItem.style.padding = '10px';
     taskItem.style.borderRadius = '8px';
-    taskItem.style.width = '400px';
+    
 
     // Create a container for the task text and check button
     const taskContainer = document.createElement('div');
