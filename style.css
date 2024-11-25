@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#swticher{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    margin: 10px;  
+    background-color: transparent;
+    border: none;  
+    cursor: pointer;
+}
+
+h1{
+   margin-bottom: 30px; 
+   color: black;
+}
+
+
+
+button:hover { background-color: #575755;
+}
+
+
+
+body{
+    background-color: white;
+    padding-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+body.dark-mode { 
+    background-color: black; 
+    color: white; 
+
+}
+
+
+
+input{
+margin-right: 10px;
+margin-bottom: 12px;
+padding: 10px 15px;
+color: white;
+font-size: 16px;
+border-radius: 30px;
+background-color: #181a1b ;
+border-style: none;
+
+}
+input::placeholder{
+    color: rgb(231, 224, 224);
+opacity: 1;
+}
+
+Button{
+    padding: 13px 15px;
+    border-radius: 100%;
+    background-color: #181a1b;
+    color: white;
+    cursor: pointer;
+    border-style: none;
+
+}
+
+
+
+.buttons {
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin-left:10px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-style: none;
+}
+
+i {
+    margin-right: 5px; /* Adjust the value as needed */
+
+    
+}
+
+.taskList{
+    margin: 0px 25px;
+    min-width: 340px;
+    max-width: 1200px;
+     background-color: #ffffff; /* White background */ border-radius: 8px; /* Rounded corners */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Box shadow for 3D effect */  /* Padding inside the task list */ 
+}
+
+.checkButton{
+    color: #181a1b;
+}
