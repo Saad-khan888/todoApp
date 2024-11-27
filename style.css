@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root{
+    --bg-color: #f0f8ff ;
+    --text-color: #f0f8ff ;
+    --secondary-text-color: #181a1b; 
+    --secondary-bg-color: #181a1b;
+    --hover-color:#575755;
+    --input-bg-color:#181a1b;
+    --border-color: #f8f4ff;
+}
+
+body.dark-mode {
+    --bg-color: #181a1b;
+    --text-color: #f0f8ff ;
+    --secondary-text-color: #181a1b; 
+    --secondary-bg-color: #181a1b;
+    --hover-color:#575755;
+    --border-color: #f8f4ff;
+}
+
+body.dark-mode h1 { 
+    background: linear-gradient(to bottom, #FFFF00, #c3f53c); 
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+
+#swticher{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    margin: 10px;  
+    background-color: transparent;
+    border: none;  
+    cursor: pointer;
+}
+
+#switchIcon { transition: transform 0.3s, color 0.3s; 
+}
+
+h1{
+   margin-bottom: 30px; 
+   margin-top: 20px;
+   color: var(--secondary-text-color);
+}
+
+
+
+button:hover { background-color: var(--hover-color) ;
+}
+
+
+
+body{
+    background-color: var(--bg-color);
+    padding-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+margin-right: 10px;
+margin-bottom: 12px;
+padding: 10px 15px;
+color: var(--text-color);
+font-size: 16px;
+border-radius: 30px;
+background-color: var(--input-bg-color) ;
+border: var(--border-color);
+border-style: solid;
+border-width: 2px;
+
+}
+input::placeholder{
+    color: rgb(231, 224, 224);
+opacity: 1;
+}
+
+Button{
+    padding: 13px 15px;
+    border-radius: 100%;
+    background-color: var(--secondary-bg-color);
+    color: var(--text-color);
+    cursor: pointer;
+    border: var(--border-color);
+border-style: solid;
+border-width: 2px;
+
+}
+
+
+
+.buttons {
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin-left:10px;
+    color: var(--text-color);
+    font-size: 14px;
+    cursor: pointer;
+    border-style: none;
+}
+
+i {
+    margin-right: 5px;
+    
+
+    
+}
+
+.taskList{
+    margin: 0px 25px;
+    min-width: 340px;
+    max-width: 1200px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+}
+
+.checkButton{
+    color: var(--secondary-bg-color);
+    
+
+}
